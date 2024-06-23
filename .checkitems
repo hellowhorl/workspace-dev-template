@@ -1,0 +1,18 @@
+import os
+import requests
+
+def search_for_item(self, item_name: str = "Automaton") -> bool:
+    response = requests.post(
+        f"{os.getenv('API_URL')}:{os.getenv('API_PORT')}/v1/inventory/search/",
+        data={
+            "charname": os.getenv('GITHUB_USER'),
+            "item_name": item_name
+        }
+    )
+    return response.status_code
+
+items = ["Shovel", "Mechanism", "GlowingOrb"]
+
+for item in items:
+    response = search_for_item(item)
+    print(f"{item}: {response}")

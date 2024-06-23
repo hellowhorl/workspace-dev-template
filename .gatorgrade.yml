@@ -1,0 +1,38 @@
+- entrance/mists/GlowingOrb.py:
+    - description: "You unearthed the GlowingOrb"
+      check: ConfirmFileExists
+- entrance/mists/Mechanism.py:
+    - description: "You unearthed the Mechanism"
+      check: ConfirmFileExists
+- entrance/mists/.cache/.flavor:
+    - description: "You dug the cache to store extra items"
+      check: ConfirmFileExists
+- description: You overcame the Termites with the automaton
+  check: MatchCommandFragment
+  options:
+    fragment: "null"
+    count: 0
+    exact: true
+    command: jq .asked .flags
+- description: You picked up the Shovel
+  check: MatchCommandFragment
+  options:
+    fragment: "Shovel: 200"
+    count: 1
+    exact: true
+    command:  python .checkitems
+- description: You picked up the GlowingOrb
+  check: MatchCommandFragment
+  options:
+    fragment: "GlowingOrb: 200"
+    count: 1
+    exact: true
+    command:  python .checkitems
+- description: You picked up the Mechanism
+  check: MatchCommandFragment
+  options:
+    fragment: "Mechanism: 200"
+    count: 1
+    exact: true
+    command:  python .checkitems
+  
