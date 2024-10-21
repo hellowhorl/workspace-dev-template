@@ -8,16 +8,13 @@
         "ms-python.vscode-pylance",
         "ms-python.pylint",
         "charliermarsh.ruff",
-        "bierner.markdown-checkbox",
-        "term-world.term-world",
-        "term-world.term-launcher"
+        "bierner.markdown-checkbox"
       ],
       "settings": {
         "files.exclude": {
           "**/.**": true,
           "**/__**": true
-        },
-        "workbench.colorTheme": "term-world"
+        }
       }
     }
   },
