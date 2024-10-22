@@ -18,5 +18,9 @@
       }
     }
   },
+  "containerEnv": {
+    "API_HOST": "https://api.chompe.rs",
+    "API_PORT": "443"
+  },
   "postCreateCommand": "sudo mount -a"
 }
