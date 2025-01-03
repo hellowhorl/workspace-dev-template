@@ -1,4 +1,4 @@
-# Your first journey
+# Your assignment template
 
 > Relevent epigraph or expectations-setting quote.
 
