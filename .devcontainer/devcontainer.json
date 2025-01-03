@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/hellowhorl/venture:api-container",
+  "image": "ghcr.io/hellowhorl/world:0.1.0",
   "runArgs": ["--privileged"],
   "customizations": {
     "vscode": {
