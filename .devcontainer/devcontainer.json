@@ -1,5 +1,5 @@
 {
-  "image": "ghcr.io/hellowhorl/world:0.1.0",
+  "image": "ghcr.io/hellowhorl/world:dev-0.1.1",
   "runArgs": ["--privileged"],
   "customizations": {
     "vscode": {
@@ -17,6 +17,9 @@
         }
       }
     }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "containerEnv": {
     "API_URL": "https://api.chompe.rs",
