@@ -22,7 +22,7 @@
     "ghcr.io/devcontainers/features/github-cli:1": {}
   },
   "containerEnv": {
-    "API_URL": "https://api.chompe.rs",
+    "API_URL": "https://dev.chompe.rs",
     "API_PORT": "443"
   },
   "postCreateCommand": "sudo mount -a"
