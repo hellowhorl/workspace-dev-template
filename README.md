@@ -1,6 +1,6 @@
 # Your assignment template
 
-> Relevent epigraph or expectations-setting quote.
+> Relevant epigraph or expectations-setting quote.
 
 ![Map graphic detailing the path to an unknown X](.media/image.png)
 
